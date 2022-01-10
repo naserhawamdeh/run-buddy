@@ -13,6 +13,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
 
 /* Moves the navigation bar below up so that it is inline with the header and not below it, this step was applied after the header nav ul li a step */
@@ -21,7 +24,6 @@ header h1{
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -30,7 +32,6 @@ header a {
 }
 /* Moves navigation bar to the right instead of a list inside of header */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 /* Turns the navigation bar from a list into a horizontal line */
